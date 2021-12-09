@@ -83,7 +83,7 @@ export class UsersService {
     try {
       const result = await this.userModel.findOne({ paymentId: paymentId });
       if (!result) {
-        throw new HttpException('user already has 5 Ids', HttpStatus.NOT_FOUND);
+        throw new HttpException('user not found', HttpStatus.NOT_FOUND);
       }
       return {
         message: 'Found success',
