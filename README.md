@@ -37,8 +37,9 @@ $ npm run test:cov
 ```
 ## Api base Url
 
-  [BaseUrl] (https://degoke-account-management-api.herokuapp.com)
+  https://degoke-account-management-api.herokuapp.com
 
 ## Swagger Documentation Link
 
   [Documentation](https://degoke-account-management-api.herokuapp.com/api/)
+  https://degoke-account-management-api.herokuapp.com/api/
