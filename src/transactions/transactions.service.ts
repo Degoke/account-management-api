@@ -33,7 +33,7 @@ export class TransactionsService {
       }
 
       //ensure sender !== receiver
-      if (sender._id === receiver._id) {
+      if (id === receiver._id) {
         throw new HttpException('Cannot send to self', HttpStatus.BAD_REQUEST);
       }
 

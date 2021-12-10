@@ -53,13 +53,13 @@ export class UsersController {
 
   //search user by payment id
   @UseGuards(JwtAuthGuard)
-  @Get('/search/:paymentid')
+  @Get('/search/:paymentId')
   @ApiOperation({ summary: 'search user by payment id' })
   @ApiOkResponse({ description: 'success', type: User })
   @ApiUnauthorizedResponse({ description: 'unauthorized' })
   @ApiNotFoundResponse({ description: 'User not found' })
   findUserByPaymentId(@Param('paymentId') paymentId: string) {
-    return this.usersService.searchByPaymentId(paymentId);
+    return this.usersService.findByPaymentId(paymentId);
   }
 
   // generate new user payment id
