@@ -2,6 +2,17 @@
 
 # Account Management App Api
 
+## Api base Url
+
+  https://degoke-account-management-api.herokuapp.com
+
+## Swagger Documentation Link
+
+  [Documentation](https://degoke-account-management-api.herokuapp.com/api/)
+  ```
+  https://degoke-account-management-api.herokuapp.com/api/
+  ```
+
 App created with [Nest](https://github.com/nestjs/nest).
 
 ## Installation
@@ -37,13 +48,4 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-## Api base Url
 
-  https://degoke-account-management-api.herokuapp.com
-
-## Swagger Documentation Link
-
-  [Documentation](https://degoke-account-management-api.herokuapp.com/api/)
-  ```
-  https://degoke-account-management-api.herokuapp.com/api/
-  ```
