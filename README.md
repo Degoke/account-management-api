@@ -23,6 +23,8 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+# App is set to run on localhost:8000
+
 ## Test
 
 ```bash
